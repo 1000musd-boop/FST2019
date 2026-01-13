@@ -1,6 +1,25 @@
+
+
 document.open();
 document.write(`
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Castillo de Cochem</title>
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#111;
+  color:#eee;
+}
+img{max-width:100%;height:auto}
+.separator{text-align:center;margin:10px 0}
+a{color:#4af;text-decoration:none}
+</style>
+</head>
+<body>
 
   <div class="server-item">
 
@@ -96,9 +115,10 @@ Pemain:Miu Akemi, Nanami Matsumoto, Tsubaki Kato
   
 
 
+</body>
+</html>
 `);
 document.close();
-
 
 
 
