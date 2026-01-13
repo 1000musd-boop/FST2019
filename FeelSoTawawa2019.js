@@ -1,3 +1,6 @@
+document.open();
+document.write(`
+
 
   <div class="server-item">
 
@@ -93,7 +96,8 @@ Pemain:Miu Akemi, Nanami Matsumoto, Tsubaki Kato
   
 
 
-
+`);
+document.close();
 
 
 
